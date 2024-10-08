@@ -16,7 +16,7 @@ class Grass:
 
 class Boy:
     def __init__(self):
-        self.x,self.y = random.randint(0,700),599
+        self.x,self.y = random.randint(0,700),90
         self.frame = random.randint(0,3)
         self.image = load_image('run_animation1.png')
         self.index = 0
@@ -54,7 +54,7 @@ class Smallball:
 
 class Bigball:
     def __init__(self):
-        self.x,self.y = random.randint(0,700),80
+        self.x,self.y = random.randint(0,700),599
         self.frame = random.randint(0,3)
         self.image = load_image('ball41x41.png')
         self.index = 0
